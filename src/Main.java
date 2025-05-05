@@ -68,11 +68,14 @@ public class Main {
         // Задание 7
         System.out.println("Задание 7");
         int daysInMonth = 31;
-        for (int day = 5; day <= daysInMonth; day = day + 7) {
-            System.out.println("Сегодня пятница, " + day + " число. Необходимо подготовить отчет");
+        int firstFriday;
+        for (firstFriday = 5; firstFriday <= daysInMonth; firstFriday = firstFriday + 7) {
+            System.out.println("Сегодня пятница, " + firstFriday + " число. Необходимо подготовить отчет");
+
         }
-        // Задание 7
-        System.out.println("Задание 7");
+
+        // Задание 8
+        System.out.println("Задание 8");
         int yearBefore = 200;
         int yearAfter = 100;
         int currentYear = 2025;
